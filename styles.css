@@ -1,0 +1,89 @@
+body{
+    background-image:url("images/background.png");
+    align-items: center;
+}
+.cards{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(225px,1fr));
+    gap: 30px;
+    font-family: sans-serif;
+}
+.card{
+    background: whitesmoke;
+    width: 70%;
+}
+.card-img{
+    width: 100%;
+    display: block;
+    max-height: fit-content;
+    
+}
+.card-content{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: gainsboro;
+}
+.info{
+    background: whitesmoke;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #cccccc;
+    align-items: center;
+}
+.card-content > p:first-of-type{
+    margin-top: 0;
+}
+.card-content > p:last-of-type{
+    margin-bottom: 0;
+}
+.info > p:first-of-type{
+    margin-top: 0;
+}
+.info > p:last-of-type{
+    margin-bottom: 0;
+}
+.head{
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+}
+.search{
+    display: flex;
+justify-content: center;
+height: 200px;
+margin: 20px;
+align-items: center;
+}
+.melink{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    
+}
+.melink:hover{
+text-decoration: underline;
+}
+.card:hover{
+    box-shadow:8px 10px #2F86A6;
+    border: solid #133B5C;
+}
+.sop{
+    border: solid #133B5C;
+    width: 400px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.card p{
+    margin: 0;
+}
+
+.name{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
